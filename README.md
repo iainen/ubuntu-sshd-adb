@@ -16,7 +16,7 @@ Config:
 ## Run example
 
 ```bash
-$ sudo docker run -d -P --name test_sshd rastasheep/ubuntu-sshd:14.04
+$ sudo docker run -d -P --name test_sshd iainen/ubuntu-sshd-adb:16.04
 $ sudo docker port test_sshd 22
   0.0.0.0:49154
 
