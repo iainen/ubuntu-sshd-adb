@@ -24,3 +24,9 @@ $ ssh root@localhost -p 49154
 # The password is `root`
 root@test_sshd $
 ```
+
+## Security
+Change the root password:  
+```
+docker exec -ti test_sshd passwd
+```
